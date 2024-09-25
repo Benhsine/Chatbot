@@ -1,0 +1,383 @@
+{
+    "intents": [
+      {
+        "tag": "salutation",
+        "patterns": [
+          "Salut",
+          "Hé",
+          "Comment ça va",
+          "Y a-t-il quelqu'un?",
+          "Bonjour",
+          "Bonne journée"
+        ],
+        "responses": [
+          "Salut :-)",
+          "Bonjour, merci de votre visite",
+          "Salut, que puis-je faire pour vous?",
+          "Salut, comment puis-je vous aider?"
+        ]
+      },
+      {
+        "tag": "au revoir",
+        "patterns": ["Au revoir", "À plus tard", "Adieu"],
+        "responses": [
+          "À bientôt, merci de votre visite",
+          "Bonne journée",
+          "Au revoir ! Revenez bientôt."
+        ]
+      },
+      {
+        "tag": "merci",
+        "patterns": ["Merci", "Merci beaucoup", "C'est utile", "Merci beaucoup!"],
+        "responses": ["Heureux de pouvoir aider !", "À tout moment !", "Avec plaisir"]
+      },
+      {
+        "tag": "autisme",
+        "patterns": [
+          "l'autisme ?",
+          "c'est quoi l'autisme ?",
+          "Qu'est-ce que l'autisme ?",
+          "Quels sont les symptômes de l'autisme ?",
+          "Comment traiter l'autisme ?",
+          "Quels sont les traitements pour l'autisme ?",
+          "Quels sont les services disponibles pour les personnes autistes ?",
+          "Où puis-je trouver des informations sur l'autisme ?",
+          "Comment puis-je aider une personne autiste ?"
+        ],
+        "responses": [
+          "L'autisme est un trouble du développement qui affecte la communication et l'interaction sociale. Les symptômes de l'autisme peuvent varier d'une personne à l'autre, mais ils peuvent inclure des difficultés à communiquer, des comportements répétitifs et des intérêts restreints. Il n'existe pas de traitement unique pour l'autisme, mais il existe un certain nombre de thérapies et de programmes qui peuvent aider les personnes autistes à vivre une vie pleine et productive. Les traitements pour l'autisme varient en fonction des symptômes de la personne. Les thérapies courantes comprennent la thérapie comportementale, la thérapie par le langage et la thérapie par l'occupation. Les programmes de soutien peuvent également être utiles, tels que les groupes de soutien pour les familles et les personnes autistes. Pour plus d'informations sur l'autisme, vous pouvez visiter le site Web de l'association Autisme France. Vous pouvez également contacter votre médecin ou un autre professionnel de la santé pour obtenir des conseils sur la manière d'aider une personne autiste."
+        ]
+      },
+      {
+        "tag": "maladie respiratoire",
+        "patterns": [
+          "Quels sont les signes d'une maladie respiratoire ?",
+          "Comment prévenir les maladies respiratoires ?",
+          "Comment traiter les maladies respiratoires ?",
+          "Quels sont les traitements pour les maladies respiratoires ?",
+          "Quels sont les services disponibles pour les personnes atteintes de maladies respiratoires ?",
+          "Où puis-je trouver des informations sur les maladies respiratoires ?",
+          "Comment puis-je aider une personne atteinte de maladies respiratoires ?"
+        ],
+        "responses": [
+          "Les signes d'une maladie respiratoire peuvent inclure des difficultés à respirer, de la fièvre, de la toux et des maux de gorge. Il existe un certain nombre de choses que vous pouvez faire pour prévenir les maladies respiratoires, notamment vous laver les mains fréquemment, éviter les personnes malades et vous faire vacciner contre les infections respiratoires courantes. Les traitements pour les maladies respiratoires varient en fonction du type de maladie, mais ils peuvent inclure des médicaments, des traitements naturels et des soins de soutien. Pour plus d'informations sur les maladies respiratoires, vous pouvez visiter le site Web de l'association Asthme et Allergies France. Vous pouvez également contacter votre médecin ou un autre professionnel de la santé pour obtenir des conseils sur la manière d'aider une personne atteinte de maladies respiratoires."
+        ]
+      },
+      {
+        "tag": "pediatrie_info_generale",
+        "patterns": [
+          "Quels sont les services pédiatriques disponibles?",
+          "Dites-moi ce que propose le service pédiatrie.",
+          "Informations générales sur le service pédiatrie."
+        ],
+        "responses": [
+          "Le service pédiatrie offre des soins complets aux enfants, couvrant diverses conditions médicales.",
+          "Nos services pédiatriques comprennent le traitement de l'autisme, des maladies respiratoires et bien plus encore.",
+          "Pour en savoir plus sur les services pédiatriques, n'hésitez pas à demander des informations spécifiques."
+        ]
+      },
+      {
+        "tag": "autisme_pediatre",
+        "patterns": [
+          "Comment le service pédiatrie traite-t-il l'autisme?",
+          "Des spécialistes de l'autisme sont-ils disponibles pour les enfants?",
+          "Quelles sont les options de traitement pour les enfants autistes?"
+        ],
+        "responses": [
+          "Le service pédiatrie propose des traitements individualisés pour les enfants autistes, y compris des thérapies comportementales et du langage.",
+          "Nos pédiatres travaillent en collaboration avec des spécialistes de l'autisme pour fournir un soutien complet.",
+          "Les options de traitement pour l'autisme incluent des approches personnalisées adaptées aux besoins de chaque enfant."
+        ]
+      },
+      {
+        "tag": "maladies_respiratoires_pediatre",
+        "patterns": [
+          "Quels sont les services pédiatriques pour les maladies respiratoires?",
+          "Comment les pédiatres traitent-ils les affections respiratoires chez les enfants?",
+          "Y a-t-il des programmes spécifiques pour les enfants atteints de maladies respiratoires?"
+        ],
+        "responses": [
+          "Le service pédiatrie offre des soins spécialisés pour les enfants souffrant de maladies respiratoires.",
+          "Nos pédiatres utilisent des approches intégrées pour traiter efficacement les affections respiratoires chez les enfants.",
+          "Des programmes spécifiques sont disponibles pour aider les enfants à gérer et à traiter leurs maladies respiratoires."
+        ]
+      },
+      {
+        "tag": "rendezvous_pediatre",
+        "patterns": [
+          "Comment prendre rendez-vous avec un pédiatre?",
+          "Quelle est la procédure pour planifier une consultation pédiatrique?",
+          "Y a-t-il des créneaux horaires disponibles pour les rendez-vous pédiatriques?"
+        ],
+        "responses": [
+          "Vous pouvez prendre rendez-vous en appelant notre service de rendez-vous pédiatrique au [numéro de téléphone].",
+          "La procédure pour planifier une consultation pédiatrique est simple. Appelez-nous ou utilisez notre service de prise de rendez-vous en ligne.",
+          "Nous avons des créneaux horaires flexibles pour répondre aux besoins des parents et des enfants."
+        ]
+      },
+      {
+        "tag": "urgence_pediatre",
+        "patterns": [
+          "Quels sont les services pédiatriques d'urgence?",
+          "Comment obtenir une assistance médicale d'urgence pour un enfant?",
+          "Y a-t-il une salle d'urgence pédiatrique disponible?"
+        ],
+        "responses": [
+          "Notre service d'urgence pédiatrique est disponible 24h/24 pour fournir une assistance médicale d'urgence aux enfants.",
+          "En cas d'urgence médicale, veuillez vous rendre immédiatement à la salle d'urgence pédiatrique.",
+          "Nos pédiatres d'urgence sont formés pour traiter rapidement et efficacement les situations médicales d'urgence chez les enfants."
+        ]
+      },
+      {
+        "tag": "pediatrie_autisme",
+        "patterns": [
+          "Comment le service pédiatrie aide-t-il les enfants atteints d'autisme?",
+          "Y a-t-il des programmes spécifiques pour les enfants autistes dans le service pédiatrie?",
+          "Quelles ressources sont disponibles pour les parents d'enfants autistes?"
+        ],
+        "responses": [
+          "Notre service pédiatrie offre un soutien spécialisé pour les enfants autistes, y compris des programmes de thérapie et de développement.",
+          "Des programmes spécifiques sont conçus pour répondre aux besoins uniques des enfants autistes.",
+          "Nous fournissons également des ressources et des conseils aux parents pour soutenir le développement de leurs enfants autistes."
+        ]
+      },
+      {
+        "tag": "pediatrie_traitement_respiratoire",
+        "patterns": [
+          "Quels sont les traitements disponibles pour les enfants atteints de maladies respiratoires?",
+          "Les pédiatres proposent-ils des thérapies respiratoires pour les enfants?",
+          "Comment le service pédiatrie gère-t-il les maladies respiratoires chez les enfants?"
+        ],
+        "responses": [
+          "Le service pédiatrie propose une gamme complète de traitements pour les enfants souffrant de maladies respiratoires.",
+          "Nos pédiatres utilisent des thérapies respiratoires avancées pour améliorer la fonction pulmonaire des enfants.",
+          "Le traitement des maladies respiratoires chez les enfants est personnalisé en fonction de la nature spécifique de la maladie."
+        ]
+      },
+      {
+        "tag": "pediatrie_conseils_sante",
+        "patterns": [
+          "Donnez-moi des conseils pour maintenir la santé des enfants.",
+          "Quel régime alimentaire recommandez-vous pour les enfants?",
+          "Comment assurer un mode de vie sain pour les enfants?"
+        ],
+        "responses": [
+          "Voici quelques conseils pour maintenir la santé des enfants :...",
+          "Un régime alimentaire équilibré, de l'exercice régulier et un sommeil adéquat sont essentiels pour un mode de vie sain chez les enfants.",
+          "Consultez nos pédiatres pour des conseils personnalisés sur la santé et le bien-être des enfants."
+        ]
+      },
+      {
+        "tag": "cardiologie_info_generale",
+        "patterns": [
+          "Quels sont les services de cardiologie disponibles?",
+          "Dites-moi ce que propose le service de cardiologie.",
+          "Informations générales sur le service de cardiologie."
+        ],
+        "responses": [
+          "Le service de cardiologie offre des soins spécialisés pour les problèmes cardiaques.",
+          "Nous proposons une gamme complète de services de cardiologie, y compris des diagnostics avancés et des traitements.",
+          "Pour en savoir plus sur les services de cardiologie, n'hésitez pas à demander des informations spécifiques."
+        ]
+      },
+      {
+        "tag": "maladies_cardiaques",
+        "patterns": [
+          "Quels sont les signes de maladies cardiaques?",
+          "Comment prévenir les maladies cardiaques?",
+          "Quels sont les traitements pour les maladies cardiaques?",
+          "Quels sont les services disponibles pour les personnes atteintes de maladies cardiaques?",
+          "Où puis-je trouver des informations sur les maladies cardiaques?",
+          "Comment puis-je aider une personne atteinte de maladies cardiaques?"
+        ],
+        "responses": [
+          "Les signes de maladies cardiaques peuvent inclure des douleurs thoraciques, des essoufflements et des palpitations. Si vous ressentez ces symptômes, consultez immédiatement un médecin.",
+          "La prévention des maladies cardiaques implique une alimentation saine, de l'exercice régulier et des examens médicaux réguliers.",
+          "Les traitements pour les maladies cardiaques peuvent inclure des médicaments, des interventions chirurgicales et des changements de mode de vie.",
+          "Des services spécialisés sont disponibles pour aider les personnes atteintes de maladies cardiaques à gérer leur condition."
+        ]
+      },
+      {
+        "tag": "rendezvous_cardiologie",
+        "patterns": [
+          "Comment prendre rendez-vous avec un cardiologue?",
+          "Quelle est la procédure pour planifier une consultation en cardiologie?",
+          "Y a-t-il des créneaux horaires disponibles pour les rendez-vous en cardiologie?"
+        ],
+        "responses": [
+          "Vous pouvez prendre rendez-vous en appelant notre service de rendez-vous en cardiologie au [numéro de téléphone].",
+          "La procédure pour planifier une consultation en cardiologie est simple. Appelez-nous ou utilisez notre service de prise de rendez-vous en ligne.",
+          "Nous avons des créneaux horaires flexibles pour répondre aux besoins des patients en cardiologie."
+        ]
+      },
+      {
+        "tag": "urgences_cardiologie",
+        "patterns": [
+          "Quels sont les services d'urgence en cardiologie?",
+          "Comment obtenir une assistance médicale d'urgence pour des problèmes cardiaques?",
+          "Y a-t-il une salle d'urgence cardiologique disponible?"
+        ],
+        "responses": [
+          "Notre service d'urgence cardiologique est disponible 24h/24 pour fournir une assistance médicale d'urgence pour des problèmes cardiaques.",
+          "En cas d'urgence cardiaque, veuillez appeler immédiatement le service d'urgence ou vous rendre à la salle d'urgence cardiologique.",
+          "Nos cardiologues d'urgence sont formés pour traiter rapidement et efficacement les situations médicales d'urgence liées au cœur."
+        ]
+      },
+      {
+        "tag": "consultations_cardiologie",
+        "patterns": [
+          "Comment se déroulent les consultations en cardiologie?",
+          "Qu'est-ce que je peux attendre lors d'une consultation en cardiologie?",
+          "Les consultations en cardiologie nécessitent-elles une recommandation?"
+        ],
+        "responses": [
+          "Les consultations en cardiologie impliquent une évaluation approfondie de votre santé cardiaque, y compris des examens physiques et des tests diagnostiques.",
+          "Lors d'une consultation en cardiologie, vous discuterez de vos antécédents médicaux, de vos symptômes et de vos préoccupations avec le cardiologue.",
+          "Les consultations en cardiologie peuvent être planifiées avec ou sans recommandation préalable, en fonction de vos besoins spécifiques."
+        ]
+      },
+      {
+        "tag": "prevention_cardiologie",
+        "patterns": [
+          "Quelles sont les mesures de prévention des maladies cardiaques?",
+          "Comment puis-je maintenir la santé de mon cœur?",
+          "Existe-t-il des programmes de prévention des maladies cardiaques?"
+        ],
+        "responses": [
+          "La prévention des maladies cardiaques implique des choix de vie sains, tels qu'une alimentation équilibrée, de l'exercice régulier et l'arrêt du tabac.",
+          "Maintenir la santé de votre cœur nécessite une activité physique régulière et une gestion du stress.",
+          "Nous proposons des programmes de prévention des maladies cardiaques, y compris des conseils sur le mode de vie et des examens de santé réguliers."
+        ]
+      },
+      {
+        "tag": "traitements_cardiologie",
+        "patterns": [
+          "Quels sont les traitements disponibles en cardiologie?",
+          "Comment les cardiologues traitent-ils les problèmes cardiaques?",
+          "Y a-t-il des options de traitement non invasives en cardiologie?"
+        ],
+        "responses": [
+          "Les traitements en cardiologie varient en fonction du type de problème cardiaque et peuvent inclure des médicaments, des interventions chirurgicales et des procédures non invasives.",
+          "Les cardiologues utilisent des approches personnalisées pour traiter efficacement les problèmes cardiaques.",
+          "Des options de traitement non invasives, telles que la thérapie médicamenteuse et les procédures d'intervention, sont disponibles en cardiologie."
+        ]
+      },
+      {
+        "tag": "examens_cardiologie",
+        "patterns": [
+          "Quels sont les examens diagnostiques en cardiologie?",
+          "Comment sont effectués les tests cardiaques?",
+          "À quelle fréquence devrais-je subir des examens cardiaques?"
+        ],
+        "responses": [
+          "Les examens diagnostiques en cardiologie comprennent des tests tels que l'électrocardiogramme (ECG), l'échocardiographie et la cathétérisation cardiaque.",
+          "Les tests cardiaques sont réalisés par des professionnels qualifiés dans un environnement médical sécurisé.",
+          "La fréquence des examens cardiaques dépend de vos antécédents médicaux et de vos facteurs de risque individuels. Consultez votre cardiologue pour des recommandations spécifiques."
+        ]
+      },
+      {
+        "tag": "urgence_info_generale",
+        "patterns": [
+          "Quels sont les services d'urgence disponibles?",
+          "Dites-moi ce que propose le service d'urgence.",
+          "Informations générales sur le service d'urgence."
+        ],
+        "responses": [
+          "Le service d'urgence est disponible 24h/24 pour fournir une assistance médicale d'urgence.",
+          "Nous offrons des soins d'urgence complets, y compris la prise en charge des blessures, des maladies soudaines et d'autres situations médicales critiques.",
+          "Pour en savoir plus sur les services d'urgence, n'hésitez pas à demander des informations spécifiques."
+        ]
+      },
+      {
+        "tag": "comment_obtenir_aide_urgence",
+        "patterns": [
+          "Comment obtenir une assistance médicale d'urgence?",
+          "Quand devrais-je utiliser le service d'urgence?",
+          "Quels sont les numéros d'urgence à appeler?"
+        ],
+        "responses": [
+          "En cas d'urgence médicale, appelez immédiatement le numéro d'urgence [numéro] pour obtenir une assistance rapide.",
+          "Le service d'urgence est destiné aux situations médicales critiques, telles que les blessures graves, les problèmes respiratoires aigus et les symptômes de crise cardiaque.",
+          "Les numéros d'urgence à appeler sont clairement indiqués sur notre site web et dans les espaces publics de l'établissement."
+        ]
+      },
+      {
+        "tag": "quoi_attendre_urgence",
+        "patterns": [
+          "Que puis-je attendre lors d'une visite au service d'urgence?",
+          "Comment se déroule le triage en urgence?",
+          "Quels sont les délais d'attente habituels aux urgences?"
+        ],
+        "responses": [
+          "Lors d'une visite au service d'urgence, vous serez évalué rapidement par notre équipe médicale.",
+          "Le triage en urgence permet de classer les cas en fonction de leur gravité, assurant une prise en charge rapide des situations les plus critiques.",
+          "Les délais d'attente varient en fonction de l'affluence et de la gravité des cas. Les situations d'urgence sont toujours prioritaires."
+        ]
+      },
+      {
+        "tag": "assistance_urgence_enfant",
+        "patterns": [
+          "Comment fonctionne l'assistance d'urgence pour les enfants?",
+          "Y a-t-il des pédiatres disponibles en urgence?",
+          "Quels sont les services d'urgence adaptés aux enfants?"
+        ],
+        "responses": [
+          "L'assistance d'urgence pour les enfants est assurée par notre équipe médicale formée pour traiter les cas pédiatriques.",
+          "Des pédiatres sont disponibles en urgence pour fournir des soins adaptés aux enfants.",
+          "Les services d'urgence pour enfants incluent des salles spécifiques et des professionnels formés pour répondre aux besoins des plus jeunes."
+        ]
+      },
+      {
+        "tag": "salle_attente_urgence",
+        "patterns": [
+          "Comment fonctionne la salle d'attente en urgence?",
+          "Y a-t-il des zones spécifiques pour certaines urgences?",
+          "Quelles sont les installations disponibles dans la salle d'attente?"
+        ],
+        "responses": [
+          "La salle d'attente en urgence est organisée pour assurer un triage rapide et efficace.",
+          "Des zones spécifiques peuvent être réservées pour certaines urgences afin de garantir une prise en charge appropriée.",
+          "Des installations telles que des sièges confortables, des informations médicales et des ressources pour les patients sont disponibles dans la salle d'attente."
+        ]
+      },
+      {
+        "tag": "documents_urgence",
+        "patterns": [
+          "Quels documents dois-je apporter en cas d'urgence?",
+          "Y a-t-il des formulaires à remplir avant la consultation en urgence?",
+          "Comment puis-je me préparer pour une visite en urgence?"
+        ],
+        "responses": [
+          "En cas d'urgence, apportez vos pièces d'identité, cartes d'assurance maladie et tout document médical pertinent.",
+          "Le personnel d'urgence vous guidera pour remplir tout formulaire nécessaire lors de votre arrivée.",
+          "Préparez-vous en ayant une liste de vos médicaments actuels, antécédents médicaux et contacts d'urgence à portée de main."
+        ]
+      },
+      {
+        "tag": "services_apres_urgence",
+        "patterns": [
+          "Quels services sont disponibles après une visite en urgence?",
+          "Y a-t-il un suivi médical après une consultation en urgence?",
+          "Comment puis-je obtenir des informations post-urgence?"
+        ],
+        "responses": [
+          "Après une visite en urgence, vous pouvez bénéficier de services de suivi adaptés à votre situation médicale.",
+          "Le personnel médical peut recommander un suivi avec un spécialiste ou des examens complémentaires si nécessaire.",
+          "Pour des informations post-urgence, n'hésitez pas à contacter notre service d'assistance médicale."
+        ]
+      },
+      {
+        "tag": "partenaires_urgence",
+        "patterns": [
+          "Avez-vous des partenariats avec des services d'urgence externes?",
+          "Comment fonctionne la coordination avec les ambulances?",
+          "Quelles sont les liaisons avec les hôpitaux partenaires en cas d'urgence?"
+        ],
+        "responses": [
+          "Nous avons des partenariats avec des services d'urgence externes pour assurer une coordination efficace.",
+          "La coordination avec les ambulances est essentielle pour garantir une arrivée rapide des patients aux urgences.",
+          "Des liaisons étroites avec les hôpitaux partenaires permettent un transfert rapide et fluide en cas de besoin de soins spécialisés."
+        ]
+      }
+    ]
+  }
